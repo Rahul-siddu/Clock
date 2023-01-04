@@ -30,12 +30,12 @@ let  clock = ()=>{
         document.querySelector('#good-morning').textContent = "GOOD AFTERNOON !! TAKE SOME SLEEP"
         document.querySelector('#good-morning').style.fontSize = '24px'
         document.querySelector('#noon-text').textContent = "LET'S HAVE SOME LUNCH !!"
-        document.querySelector('#images').style.backgroundImage = "URL(./assets/actuallunch.png)"
+        document.querySelector('#images').style.backgroundImage = "URL(./assets/lunchimage.png)"
     }
     else if (new Date().getHours() == evening.value){
         document.querySelector('#good-morning').textContent = "GOOD EVENING !!"
         document.querySelector('#noon-text').textContent = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
-        document.querySelector('#images').style.backgroundImage = "URL(./assets/lunch_image.png)"
+        document.querySelector('#images').style.backgroundImage = "URL(./assets/eveningimage.png)"
     }
     else if (new Date().getHours() == night.value){
         document.querySelector('#good-morning').textContent = "GOOD NIGHT !!"
